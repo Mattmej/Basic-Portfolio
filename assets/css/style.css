@@ -1,0 +1,16 @@
+* {
+    text-align: center;
+}
+
+.header_container {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #3399ff;
+    display: flex;
+}
+
+.topbutton_1 {
+    width: 10%;
+    height: 50px;
+    border: 1px solid black;
+    margin: 25px auto;
+}
