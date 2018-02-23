@@ -1,3 +1,8 @@
+html, body {
+    height: 100%;
+    min-height: 100%;
+}
+
 * {
     text-align: center;
     box-sizing: border-box;
@@ -9,9 +14,14 @@
     justify-content: space-between;
     align-items: center;
     height: 100%;
-    width: 100%;
+    /* width: 100%; */
+    width: 960px;
     border: 1px solid black;
-    position: absolute;
+    /* position: absolute; */
+    /* position: relative; */
+    /* margin: auto; */
+    /* margin-left: 100px; */
+    margin: 0 auto;
 }
 
     .header_container {
@@ -26,6 +36,8 @@
         border-bottom: 1px solid gray;
         /* border-radius: 12px; */
         padding-bottom: 10px;
+        justify-content: space-between;
+        /* display: none; */
     }
     
         .name_container {
@@ -41,15 +53,17 @@
             border: 1px solid gray;
             /* display: none; */
             color: white;
+            margin-left: 20px;
         }
 
         .button_container {
             display: flex;
-            flex-wrap: nowrap;
+            /* flex-wrap: nowrap; */
             /* height: 50px; */
-            /* border: 1px solid black; */
-            position: absolute;
-            right: 10px;
+            border: 1px solid black;
+            /* position: absolute; */
+            /* right: 10px; */
+            /* right: 0px; */
             width: 30%;
             height: 50px;
             justify-content: space-between;
@@ -58,9 +72,9 @@
 
             div[class^='topbutton'] {
                 /*width: 33%;*/
-                width: 50px;
+                /* width: 50px; */
                 margin: 0 /*auto*/;
-                height: 50px;
+                /* height: 50px; */
                 /*border: 1px solid red;*/
                 padding: 12px;
                 flex-grow: 1;   /* Allows the items in the container to be the same size*/
@@ -105,13 +119,18 @@
         /*padding: 0 0;*/
         /*margin: 0 0;*/
         margin: 0 auto;
-        width: 90%;
+        width: 650px;
         /* flex-direction: column; */
         background-color: green;
         color: white;
         height: 80%;
         flex-direction: column;
         justify-content: space-between;
+        /* display: none; */
+    }
+
+    .main_container > div {
+        padding: 10px;
     }
 
         .main_header {
@@ -121,6 +140,7 @@
             /* flex-grow: 1*/
             /* display: none; */
             font-size: 30px;
+            text-align: left;
 
         }
 
@@ -139,6 +159,10 @@
 
         }
 
+        .body_container > div {
+            padding: 10px;
+        }
+
             .main_body {
                 /* flex: 1; */
                 border: 1px solid black;
@@ -153,7 +177,8 @@
                 border: 1px solid black;
                 /* flex-grow: 1; */
                 /* display: none; */
-                width: 30%;
+                width: 270px;
+                height: 30%;
 
             }
 
@@ -161,6 +186,7 @@
         background-color: darkslategrey;
         position: relative;
         /* bottom: 0px; */
+        /* display: none; */
     }
 
 /* 
