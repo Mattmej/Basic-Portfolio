@@ -7,130 +7,161 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
-
-.header_container {
-    display: flex;
-    height: 50px;
-    /*border: 1px solid black;*/
-}
-
-.name_container {
-    /*flex: 1;    /* Sets priority in flex container. Has first priority. */
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
     position: absolute;
-    left: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    background-color: #3399ff;
-    width: 15%;
-    height: 50px;
-    padding: 15px;
-    font-size: medium;
-    border-radius: 12px;    /* Makes the border round */
-    border: 1px solid gray;
 }
 
-.button_container {
-    display: flex;
-    flex-wrap: nowrap;
-    height: 50px;
-    /*border: 1px solid black;*/
-    position: absolute;
-    right: 10px;
-    width: 30%;
-    height: 50px;
-}
+    .header_container {
+        display: flex;
+        /* height: 50px; */
+        /*border: 1px solid black;*/
+        /* background-color: red; */
+        /* color: white; */
+        width: 100%;
+        /* height: 10%; */
+        height: 50px;
+        border-bottom: 1px solid gray;
+        /* border-radius: 12px; */
+        padding-bottom: 10px;
+    }
+    
+        .name_container {
+            /* position: absolute; */
+            /* left: 20px; */
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #3399ff;
+            width: 15%;
+            height: 50px;
+            padding: 15px;
+            font-size: 20px;
+            border-radius: 12px;    /* Makes the border round */
+            border: 1px solid gray;
+            /* display: none; */
+            color: white;
+        }
 
-/*
-.button_container > div {
-    width: 33%;
-    /*margin: 10px;
-    margin: 0 auto;
-    height: 50px;
-    border: 1px solid red;
-    padding: 12px;
-    /*justify-content: space-evenly;
-}
-*/
+        .button_container {
+            display: flex;
+            flex-wrap: nowrap;
+            /* height: 50px; */
+            /* border: 1px solid black; */
+            position: absolute;
+            right: 10px;
+            width: 30%;
+            height: 50px;
+            justify-content: space-between;
+            /* display: none; */
+        }
 
-div[class^='topbutton'] {
-    /*width: 33%;*/
-    width: 50px;
-    margin: 0 /*auto*/;
-    height: 50px;
-    /*border: 1px solid red;*/
-    padding: 12px;
-    flex-grow: 1;   /* Allows the items in the container to be the same size*/
-}
+            div[class^='topbutton'] {
+                /*width: 33%;*/
+                width: 50px;
+                margin: 0 /*auto*/;
+                height: 50px;
+                /*border: 1px solid red;*/
+                padding: 12px;
+                flex-grow: 1;   /* Allows the items in the container to be the same size*/
+                /* display: none; */
+            }
 
-.topbutton_1 {
-    flex: 1;
-}
+            .topbutton_1 {
+                flex: 1;
+                /* color: white; */
+                /* display: none; */
 
-.topbutton_2 {
-    flex: 2;
-}
+            }
 
-.topbutton_3 {
-    flex: 3;
-}
+            .topbutton_2 {
+                flex: 2;
+                /* color: white; */
 
-.divider {
-    width: 2px;
-    margin: 2px 0;
-    background: gray;
-}
+                /* display: none; */
 
-/*
-.title_container {
-    display: flex;
-    border: 1px solid black;
-}
-*/
+            }
+
+            .topbutton_3 {
+                flex: 3;
+                /* color: white; */
+
+                /* display: none; */
+
+            }
+
+            .divider {
+                width: 2px;
+                margin: 2px 0;
+                background: gray;
+                /* display: none; */
+
+            }
+
+    .main_container {
+        display: flex;
+        border: 1px solid black;
+        /*padding: 0 auto;*/
+        /*padding: 0 0;*/
+        /*margin: 0 0;*/
+        margin: 0 auto;
+        width: 90%;
+        /* flex-direction: column; */
+        background-color: green;
+        color: white;
+        height: 80%;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+        .main_header {
+            border: 1px solid black;
+            /* position: relative; */
+            /* top: 30px; */
+            /* flex-grow: 1*/
+            /* display: none; */
+            font-size: 30px;
+
+        }
 
 
-.body_container {
-    display: flex;
-    border: 1px solid black;
-    position: relative;
-    top: 50px;
-    /* flex-grow: 3 */
-}
+        .body_container {
+            display: flex;
+            border: 1px solid black;
+            /* position: relative; */
+            /* top: 50px; */
+            /* flex-grow: 3 */
+            /* display: none; */
+            height: 90%;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 100%;
 
-.main_container {
-    display: flex;
-    border: 1px solid black;
-    /*padding: 0 auto;*/
-    /*padding: 0 0;*/
-    /*margin: 0 0;*/
-    margin: 0 auto;
-    width: 80%;
-    flex-direction: column;
-}
+        }
 
-.main_header {
-    border: 1px solid black;
-    position: relative;
-    top: 30px;
-    /* flex-grow: 1*/
-}
+            .main_body {
+                /* flex: 1; */
+                border: 1px solid black;
+                /* flex-grow: 2; */
+                /* display: none; */
+                width: 60%;
 
-.main_body {
-    flex: 1;
-    border: 1px solid black;
-    flex-grow: 2;
-}
+            }
 
-.connect {
-    flex: 2;
-    border: 1px solid black;
-    flex-grow: 1;
-}
+            .connect {
+                /* flex: 2; */
+                border: 1px solid black;
+                /* flex-grow: 1; */
+                /* display: none; */
+                width: 30%;
 
-footer {
-    background-color: darkslategrey;
-    position: relative;
-    bottom: 0px;
-}
+            }
+
+    footer {
+        background-color: darkslategrey;
+        position: relative;
+        /* bottom: 0px; */
+    }
 
 /* 
 
