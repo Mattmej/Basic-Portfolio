@@ -1,6 +1,6 @@
 body {
     background-color: #4aaaa5;
-    /* background-image: url("images/circles-light.png"); */
+    background-image: url("../images/circles-light.png");
     position: relative;
 }
 
@@ -91,7 +91,7 @@ body {
     /* -- Contains pretty much everything in the body -- */
     .main_container {   
         display: flex;
-        border: 1px solid #dddddd;
+        /* border: 1px solid #dddddd; */
         margin-top: 50px;
         width: 960px;
         /* background-color: green; */
@@ -119,7 +119,7 @@ body {
         /* -- Header of the "body" element -- */
         
 
-        /* -- Contains the text of the "About me" section as well as the "connect" aside -- */
+        /* -- Contains the text of the "About me" section  -- */
         .body_container {
             display: flex;
             height: 90%;
@@ -196,7 +196,8 @@ body {
                     height: 50px;
                     /* border: 1px solid black; */
                     padding-top: 10px;
-                    border-bottom: 1px solid gray;
+                    /* border-bottom: 1px solid gray; */
+                    border-bottom: 1px solid #dddddd;
                 }
 
                 .linkbutton_container {
