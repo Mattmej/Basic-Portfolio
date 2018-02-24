@@ -117,22 +117,7 @@ body {
         } */
 
         /* -- Header of the "body" element -- */
-        .main_header {
-            border-bottom: 1px solid #dddddd;
-            font-size: 30px;
-            text-align: left;
-            /* font-family: 'Times New Roman', Times, serif; */
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            color: #4aaaa5;
-            padding-left: 20px;
-            /* padding: 10px; */
-            padding-top: 12px;
-            padding-bottom: 20px;
-            background-color: #ffffff;
-            /* margin-bottom: 30px; */
-            margin-bottom: 10px;
-            width: 650px;
-        }
+        
 
         /* -- Contains the text of the "About me" section as well as the "connect" aside -- */
         .body_container {
@@ -146,6 +131,23 @@ body {
             width: 650px;
             background-color: #ffffff;
         }
+
+            .main_header {
+                border-bottom: 1px solid #dddddd;
+                font-size: 30px;
+                text-align: left;
+                /* font-family: 'Times New Roman', Times, serif; */
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                color: #4aaaa5;
+                padding-left: 20px;
+                /* padding: 10px; */
+                padding-top: 12px;
+                padding-bottom: 20px;
+                background-color: #ffffff;
+                /* margin-bottom: 30px; */
+                margin-bottom: 10px;
+                width: 650px;
+            }
 
         /* -- Where the main text is -- */
             .main_body {    
@@ -161,16 +163,16 @@ body {
                 height: 80%;
             }
 
-            .profile_pic {
-                /* width: 50px; */
-                width: 200px;
-                /* height: 50px; */
-                height: 200px;
-                border: 1px solid black;
-                float: left;
-                /* margin-left: -30px; */
-                /* margin-left: -10px; */
-            }
+                .profile_pic {
+                    /* width: 50px; */
+                    width: 200px;
+                    /* height: 50px; */
+                    height: 200px;
+                    border: 1px solid black;
+                    float: left;
+                    /* margin-left: -30px; */
+                    /* margin-left: -10px; */
+                }
 
             /* -- "Connect" section that contains links to social media -- */
             .connect {
