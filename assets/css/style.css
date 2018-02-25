@@ -235,7 +235,7 @@ body {
     bottom: 0;
 }
 
-/*=================================================================================*/
+/*==================================================================================================================*/
 
 /* == Used in portfolio.html == */
 
@@ -339,5 +339,36 @@ body {
     border: 1px solid black;
 } */
 
+/*=================================================================================================*/
 
+/* == Used in contact.html == */
 
+input[type = text], textarea {
+    width: 100%;
+    padding: 12px 12px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+textarea {
+    /* height: 100px; */
+    height: 200px;
+}
+
+input[type = submit] {
+    height: 60px;
+    width: 120px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+input[type = submit]:hover {
+    background-color: #325a58;
+}
+
+/* textarea {
+    height: 500px;
+} */
