@@ -168,10 +168,20 @@ body {
                     width: 200px;
                     /* height: 50px; */
                     height: 200px;
-                    border: 1px solid black;
+                    /* border: 1px solid black; */
+                    border: 1px solid #dddddd;
                     float: left;
                     /* margin-left: -30px; */
                     /* margin-left: -10px; */
+                    /* background-image: url("../images/matt.jpg"); */
+                    background-image: url("../images/mypic.jpg");
+                    background-repeat: no-repeat;
+                    /* background-size: cover; */
+                    /* background-size: contain; */
+                    /* background-size: 100% 100%; */
+                    background-size: 297px 200px;
+                    /* transform: rotate(0.5turn); */
+                    transform: rotate(0.25turn);
                 }
 
             /* -- "Connect" section that contains links to social media -- */
@@ -244,7 +254,7 @@ body {
         z-index: 2;
         /* font-family: Arial, Helvetica Neue, Helvetica, sans-serif; */
         font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 15px;
+        font-size: 16px;
     }
 
 /* == The horizontal line divider that separates the header from the body == */
